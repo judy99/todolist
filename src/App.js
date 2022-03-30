@@ -1,10 +1,8 @@
 import './App.css';
-import {useRef, useState} from "react";
+import {useState} from "react";
 import {v4 as uuidv4} from 'uuid';
-import Button from 'react-bootstrap/Button';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import {Row, Col, Form, ListGroup, Container, Stack} from "react-bootstrap";
-import {ModalConfirmation} from './Modal'
+import {Container, Stack} from "react-bootstrap";
 import {TodoForm} from './TodoForm'
 import {TodoList} from "./TodoList";
 

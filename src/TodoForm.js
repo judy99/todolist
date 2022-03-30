@@ -1,6 +1,6 @@
 import {Col, Form, Row} from "react-bootstrap";
 import Button from "react-bootstrap/Button";
-import {useRef, useState} from "react";
+import {useRef} from "react";
 
 export const TodoForm = ({addItem, updateItem}) => {
     const inputEl = useRef(null);
